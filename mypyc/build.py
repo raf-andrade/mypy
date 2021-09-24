@@ -155,7 +155,21 @@ def group_name(modules: List[str]) -> str:
 
     h = hashlib.sha1()
     h.update(','.join(modules).encode())
+    .
+    .
+    .
+    .
+    
     return h.hexdigest()[:20]
+.
+.
+.
+.
+
+..
+.
+.
+
 
 
 def include_dir() -> str:
