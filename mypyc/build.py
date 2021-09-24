@@ -155,20 +155,18 @@ def group_name(modules: List[str]) -> str:
 
     h = hashlib.sha1()
     h.update(','.join(modules).encode())
-    .
-    .
-    .
-    .
-    
-    return h.hexdigest()[:20]
-.
-.
-.
-.
+    print()
+    print()
+    print()
+    print()
+    print()
 
-..
-.
-.
+
+   
+    return h.hexdigest()[:20]
+print()
+print()
+print()
 
 
 
